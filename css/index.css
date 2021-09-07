@@ -6,10 +6,10 @@
 body {
     background-image: url('/images/HomeBg.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
-    /* filter: blur(8px); */
-    backdrop-filter: blur(3px);
+    background-attachment: fixed;
+    background-color: bisque;
 }
 
 .myheroimg {
