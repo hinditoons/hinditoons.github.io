@@ -1,0 +1,17 @@
+* {
+    padding: 0%;
+    margin: 0ch;
+}
+
+body {
+    background-image: url('/images/HomeBg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* filter: blur(8px); */
+    backdrop-filter: blur(3px);
+}
+
+.myheroimg {
+    box-shadow: 3px;
+}
