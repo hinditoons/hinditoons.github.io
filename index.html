@@ -70,13 +70,24 @@
 
                 <span class="ml-3 text-xl">HindiToons Stream</span>
             </a>
-            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 HindiToons Stream —
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 HindiToons Files —
                 <a href="https://www.hinditoons.in" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@HindiToons</a>
             </p>
         </div>
     </footer>
+    <script src="/blowfish.js"></script>
+
     <script>
-var _0x630f=["\x3F\x69\x64\x3D","","\x72\x65\x70\x6C\x61\x63\x65","\x73\x65\x61\x72\x63\x68","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x46\x69\x6C\x65\x73\x20\x48\x69\x6E\x64\x69\x54\x6F\x6F\x6E\x73","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x66\x69\x6C\x65\x73\x2E\x68\x69\x6E\x64\x69\x74\x6F\x6F\x6E\x73\x2E\x69\x6E\x2F","\x70\x75\x73\x68\x53\x74\x61\x74\x65","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x6D\x78\x73\x74\x72\x65\x61\x6D\x65\x72\x2E\x68\x65\x72\x6F\x6B\x75\x61\x70\x70\x2E\x63\x6F\x6D\x2F","\x5F\x73\x65\x6C\x66","\x6F\x70\x65\x6E"];var id=window[_0x630f[4]][_0x630f[3]][_0x630f[2]](_0x630f[0],_0x630f[1]);history[_0x630f[7]](_0x630f[5],_0x630f[5],_0x630f[6]);function download(){const _0x428ex3=id;window[_0x630f[10]](_0x630f[8]+ _0x428ex3,_0x630f[9])}
+        var id = window.location.search;
+        id.replace('?id=', '')
+        const nurl = blowfish.decrypt(id, 'Hindi@Toons@123#!', {
+            cipherMode: 0,
+            outputType: 0
+        });
+
+        function download() {
+            window.open(nurl, '_self')
+        }
     </script>
 </body>
 
