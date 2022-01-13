@@ -77,16 +77,13 @@
     </footer>
     <script src="/blowfish.js"></script>
     <script>
-    var id = window.location.search.replace('?id=','');
+    var id = window.location.search.replace('?o=','');
     var uri = blowfish.decrypt(id,'Hindi@Toons@123#!', {cipherMode: 0, outputType: 0});
-    if (uri.includes('fxstream')) {
-    var nurl = uri.replace('fxstream','thestreamx')
-    }; else{{ var nurl = uri };
+    var lnk = 'https://linkzstream.herokuapp.com/'
+    history.pushState('Files : HindiToons', 'Files HindiToons' , 'https://files.hinditoons.in/')
     function download(){
-    window.open(nurl)
+    window.open(lnk+uri,'_self')     
     }
-   
-    
     </script>
 </body>
 
