@@ -80,7 +80,7 @@
     <script>
         var id = window.location.search;
         var nid2 = id.replace('?id=', '')
-        var nid = nid.replaceAll('%20','+')
+        var nid = nid2.replaceAll('%20','+')
         const nurl = blowfish.decrypt(nid, 'Hindi@Toons@123#!', {
             cipherMode: 0,
             outputType: 0
